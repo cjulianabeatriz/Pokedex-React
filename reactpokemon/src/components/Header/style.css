@@ -1,0 +1,30 @@
+.header {
+    background-color: #F5DB13;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 158px;
+    height: 63px;
+    padding: 1rem;
+}
+
+.nav {
+    padding: 2rem;
+}
+
+a:-webkit-any-link {
+    font-size: 20px;
+    padding: 1rem;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+}
+
+a:-webkit-any-link:hover{
+    border-bottom: 3px solid black;
+}
