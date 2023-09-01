@@ -28,3 +28,25 @@ a:-webkit-any-link {
 a:-webkit-any-link:hover{
     border-bottom: 3px solid black;
 }
+
+.switch {
+    display: flex;
+    margin-right: 30px;
+}
+
+.switch > button {
+    cursor: pointer;
+    background: none;
+}
+
+.bandeiras {
+    width: 30px;
+    margin-right: 20px;
+    padding-bottom: 0.5rem;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+}
+
+.bandeiras:hover {
+    border-bottom: 3px solid black;
+}
