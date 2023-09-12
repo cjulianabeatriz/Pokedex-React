@@ -1,0 +1,61 @@
+.card {
+    border-radius: 5px;
+    background-color: #F6F7F9;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    box-shadow: 4px 4px 4px 0px rgba(33, 33, 33, 0.10);
+}
+
+.infos-card {
+    padding: 2rem;
+}
+
+.nome {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.attack-defense {
+    margin: 1rem 0 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+
+}
+
+.circulo {
+    border-radius: 100rem;
+    border: solid 3px;
+    padding: 10px;
+    color: #212121;
+    background-color: 212121;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+.legenda {
+    font-weight: bold;
+}
+
+.img-card {
+    width: 250px;
+}
+
+.btn-card {
+    font-weight: bold;
+    padding: 0.8rem;
+    margin-top: 10px;
+    border-radius: 3px;
+    background: #73D677;
+    box-shadow: 0px -9px 0px 0px rgba(0, 0, 0, 0.18) inset;
+    cursor: pointer;
+}
+
+.btn-card:hover {
+    background: #8dee91;
+}

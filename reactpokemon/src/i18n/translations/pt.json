@@ -3,7 +3,18 @@
         "Home": "Página Inicial",
         "Pokédex": "Pokédex",
         "Legendaries": "Lendários",
-        "Language": "Idioma"
+        "Language": "Idioma",
+        "FindAll": "Encontre todos os seus Pokémons favoritos",
+        "YouCan": "Você pode conhecer o tipo de Pokémon, seus pontos de combate e habilidades.",
+        "See": "Ver pokemons",
+        "MadeWith": "Feito com",
+        "by": "por",
+        "800": "+800 Pokemons para você escolher o seu favorito",
+        "Search": "Encontre o seu pokemon",
+        "Attack": "Ataque",
+        "Defense": "Defesa",
+        "SeeMore": "Ver mais",
+        "Type": "Tipo"
 
     }
 }
