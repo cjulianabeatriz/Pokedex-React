@@ -1,22 +1,17 @@
 import { useTranslation } from 'react-i18next';
-import close from '../../assets/close.png';
-import sylveon from '../../assets/sylveon.png';
 import React from 'react';
 import './modal.css';
-
 
 const languageOptions = [
     { name: 'Português', value: 'pt', },
     { name: 'English', value: 'en', },
 ]
 
-interface IModal {
-    isOpen: boolean;
-    setOpen: (isOpen: boolean) => void;
-}
+export const Modal = ({ isOpen, setModalOpen }) => {
 
-export const Modal = ({ isOpen, setOpen }: IModal) => {
+
     const { t } = useTranslation();
+
     if (isOpen) {
         return (
             <div className='overlay'>
@@ -24,9 +19,7 @@ export const Modal = ({ isOpen, setOpen }: IModal) => {
                 <div className='modal'>
 
                     <div className='btn-close'>
-                        <button onClick={() => setOpen(!isOpen)}>
-                        <img className='img-btn' src={close} />
-                        </button>
+                        <button onClick={setModalOpen}>fechar</button>
                     </div>
 
                     <div className='content'>
@@ -39,7 +32,7 @@ export const Modal = ({ isOpen, setOpen }: IModal) => {
                         </div>
 
                         <div>
-                            <img className='img-card' src={sylveon} />
+                            <img className='img-card' />
                         </div>
 
                     </div>
@@ -47,7 +40,6 @@ export const Modal = ({ isOpen, setOpen }: IModal) => {
                 </div>
             </div>
         )
-    } else {
-        return <></>
     }
+
 }

@@ -1,14 +1,14 @@
 .search {
-    padding: 1.5rem;
+    padding-bottom: 1.5rem;
     display: flex;
     text-align: center;
     justify-content: center;
 }
 
 .input {
-    width: 70rem;
+    width: 50rem;
     border-radius: 100px;
     background: #F2F2F2;
     box-shadow: 4px 4px 16px 0px rgba(1, 28, 64, 0.20);
-    padding: 1rem 0 1rem 2rem;
+    padding: 1rem 2rem 1rem 2rem;
 }

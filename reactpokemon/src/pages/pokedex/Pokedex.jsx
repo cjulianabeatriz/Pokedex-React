@@ -10,6 +10,7 @@ const languageOptions = [
 ]
 
 export const Pokedex = () => {
+    
     const { t } = useTranslation();
 
     return (
@@ -17,7 +18,7 @@ export const Pokedex = () => {
             <div>
                 <h1>{t('800')}</h1>
                 <Search />
-                <Card />
+                <Card attack={t('Attack')} defense={t('Defense')}/>
             </div>
         </div>
     )
