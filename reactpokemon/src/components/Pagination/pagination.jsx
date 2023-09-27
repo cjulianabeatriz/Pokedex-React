@@ -1,17 +1,19 @@
 import { useTranslation } from 'react-i18next';
-import './style.css';
+import React from 'react';
+
 
 const languageOptions = [
     { name: 'Português', value: 'pt',},
     { name: 'English', value: 'en', },
 ]
 
-export const Footer = () => {
+export const Pagination = () => {
+    
     const {t} = useTranslation();
 
     return (
-     <div className='footer'>
-        <span>{t('MadeWith')} 💖 {t('by')} Juliana Castro</span>
+     <div className='pagination'>
+        <button>Carregar mais</button>
      </div>
     )
 }

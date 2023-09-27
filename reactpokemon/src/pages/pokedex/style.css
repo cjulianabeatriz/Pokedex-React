@@ -1,9 +1,52 @@
-.pokedex {
-    padding-bottom: 100px;
+.pokedex-page {
+    margin: 20px;
 }
 
-.pokedex h1 {
-    margin-top: 3rem;
+.grid {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    width: 510px;
+    height: 42px;
+    border: transparent;
+    background-color: #eeeeee;
+    border-radius: 20px;
+    padding-left: 12px;
+    padding-right: 12px;
+    color: #546e7a;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.473);
+    display: flex;
+    justify-content: center;
+}
+
+.pokedex-page h1 {
     font-size: 30px;
     text-align: center;
+    margin-bottom: 1rem;
+}
+
+.pokeball {
+    width: 50px;
+    background-color: transparent;
+    border: transparent;
+}
+
+.pokeball-img {
+    width: 50px;
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.pokeball-img:hover {
+    transform: scale(1.05);
 }

@@ -6,12 +6,12 @@ const languageOptions = [
     { name: 'English', value: 'en', },
 ]
 
-export const Footer = () => {
+export const Button = ( button ) => {
     const {t} = useTranslation();
 
     return (
-     <div className='footer'>
-        <span>{t('MadeWith')} 💖 {t('by')} Juliana Castro</span>
-     </div>
+     <>
+        <button className='button'>{button.name}</button>
+     </>
     )
 }

@@ -13,11 +13,13 @@
         "MadeWith": "Feito com",
         "by": "por",
         "800": "+800 Pokemons para você escolher o seu favorito",
-        "Search": "Encontre o seu pokemon",
+        "Search": "Encontre o pokemon pelo nome ou id",
         "Attack": "Ataque",
         "Defense": "Defesa",
         "SeeMore": "Ver mais",
-        "Type": "Tipo"
+        "Type": "Tipo",
+        "Weight": "Peso",
+        "Of": "de"
 
     }
 }
